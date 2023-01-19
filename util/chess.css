@@ -39,3 +39,30 @@ li{
 #tog{
     margin: 10px 0px;
 }
+
+.allImg{
+    width: 45px;
+    position: realative;
+    bottom: 5px;
+}
+
+.allpawn{
+    transform: scale(.7);
+}
+
+.authcont{
+    width: 100vw;
+}
+
+@media (max-width:650px){
+    #tog{
+        margin-bottom: 70px;
+    }
+    .box{
+        width: 11vw;
+        height: 11vw;
+    }
+    .allImg{
+        width:7vw;
+    }
+}
